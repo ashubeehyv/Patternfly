@@ -1,0 +1,81 @@
+<!Doctype html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATTERNFLY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "flex_center_container_column">
+        <div class = "flex_center_container_row" >
+            <img id = "logo_property" src="icon.svg" alt="Icon">
+            <h1 >PATTERNFLY</h1>
+        </div>
+        <div id = "welcome_note"></div>
+
+        <div id = "profile_box">
+            <div  class="flex_space_between_container_row">
+                <div>
+                    <button type="button" id = "editProfile">Edit Profile</button>
+                </div>
+                <select >
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <div>
+                <img id = "profile_property" src = "profile_img.jpg" alt = "profile" >
+            </div>
+
+            <div>
+                <button type="button" id = "editProfilePic">Update DP</button>
+            </div>
+
+
+            <div id = displayProfile>
+                <p id = "showName"></p>
+                <p id = "showEmail"></p>
+                <p id = "showPassword"></p>
+            </div>
+
+            <div>
+                <button type="button" id="login_button">Log Out</button>
+            </div>
+
+        </div>
+        <h6>Terms of Use &#x2022; Help &#x2022; Privacy Policy</h6>
+
+    </div>
+
+
+    <div id="edit-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <form id = "editProfile_form">
+          <label for = "editName"> Name: </label>
+          <input type = "text" id = "editName" name ="editName"><br><br>
+          <label for="editPassword">Password: </label>
+          <input type = "text" id="editPassword"><br><br>
+          <input type="submit" value="Save">
+        </form>
+      </div>
+    </div>
+
+    <div id="edit-modal-image" class="modal">
+        <div class="modal-content">
+          <span class="close-button-image close-button">&times;</span>
+          <form id = "editProfileImage_form">
+            <input type = "file" id="editProfileImage"  accept="image/png, image/jpeg, image/jpg" name="editProfileImage"><br><br>
+            <input type="submit" value="Save">
+          </form>
+        </div>
+      </div>
+    
+    
+
+    <script src = "scriptprofile.js"></script>
+
+</body>
+
+</html>

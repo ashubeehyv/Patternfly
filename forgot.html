@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATTERNFLY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "flex_center_container_column">
+        <div class = "flex_center_container_row" >
+            <img id = "logo_property" src="icon.svg" alt="Icon">
+            <h1 >PATTERNFLY</h1>
+        </div>
+
+        <div id = "recovery_box">
+            <div  class="flex_right_container">
+                <select >
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <div>
+                <h2>
+                    Password Recovery
+                </h2>
+            </div>
+            <form id="forgot_form">
+                <div>
+                    <input type = "text" placeholder="Name" class ="input_box" id = "verifyName" required>
+                    <input type = "email" placeholder="Email" class ="input_box" id ="verifyEmail" required>
+                </div>
+
+                <div>
+                    <input type="submit" class="login_button" value ="Submit">
+                </div>
+                <button type="button" class="login_button" onclick="window.location.href = 'signup.html'">Sign Up</button>
+
+            </form>
+        
+ 
+
+
+        </div>
+        <h6>Terms of Use &#x2022; Help &#x2022; Privacy Policy</h6>
+
+    </div>
+    <script src = "scriptforgot.js"></script>
+
+</body>
+
+</html>

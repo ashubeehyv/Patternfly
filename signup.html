@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATTERNFLY</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "flex_center_container_column">
+        <div class = "flex_center_container_row" >
+            <img id = "logo_property" src="icon.svg" alt="Icon">
+            <h1 >PATTERNFLY</h1>
+        </div>
+
+        <div id = "signup_box">
+            <div  class="flex_right_container">
+                <select >
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <div>
+                <h2>
+                    Sign Up
+                </h2>
+            </div>
+
+            <div>
+                <form id="signup_form">
+                    <input type = "text" placeholder="Name" class ="input_box" id = "addName" required >
+                    <input type = "email" placeholder="Email" class ="input_box" id ="addEmail" required >
+                    <input type = "password" placeholder="Password" class ="input_box" id="addPassword" required >
+                    <div class = "flex_space_between_container_row">
+                        <div>
+                            <input type="checkbox" id="termsCondition" name = "termsCondition" required >
+                            <label for = "termsCondition"> I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>.</label>
+                        </div>
+                    </div>
+                    <input type="submit" id="signup_button" value = "Sign Up">
+                </form>
+                
+            </div>
+
+
+            <div class = "flex_center_container_row">
+                <p>Already have an account? <a href="login.html">Log In</a></p>
+            </div>
+
+        </div>
+        <h6>Terms of Use &#x2022; Help &#x2022; Privacy Policy</h6>
+
+    </div>
+    <script src = "scriptsignup.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PATTERNFLY</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "flex_center_container_column">
+        <div class = "flex_center_container_row" >
+            <img id = "logo_property" src="icon.svg" alt="Icon">
+            <h1 >PATTERNFLY</h1>
+        </div>
+
+
+        <div id = "login_box">
+            <div  class="flex_right_container">
+                <select >
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <div>
+                <h2>
+                    Log In to Your Account
+                </h2>
+            </div>
+            <form id="login_form">
+                <div>
+                    <input type = "email" placeholder="Email" class ="input_box" id ="email" required>
+                    <input type = "password" placeholder="Password" class ="input_box" id ="password" required>
+                </div>
+    
+                <div class = "flex_space_between_container_row">
+                    <div>
+                        <input type="checkbox" id="signInPeriod" name = "signInPeriod">
+                        <label for = "signInPeriod"> Keep me logged in for 30 days</label>
+                    </div>
+                    <div>
+                        <a href="forgot.html">Forgot password?</a>
+                    </div>
+                </div>
+    
+                <div>
+                    <input type="submit" id="login_button" value="Log In">
+                </div>
+            </form>
+
+
+
+            <div class = "flex_center_container_row">
+                <p>Need an account? <a href="signup.html">Sign up</a></p>
+            </div>
+
+        </div>
+        <h6>Terms of Use &#x2022; Help &#x2022; Privacy Policy</h6>
+
+    </div>
+    <script src = "scriptlogin.js"></script>
+
+
+</body>
+
+</html>

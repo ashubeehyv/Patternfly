@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex_center_container_column{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 1rem;
+}
+.flex_center_container_row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    font-size: 1rem;
+}
+
+.flex_space_between_container_row{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.flex_right_container{
+    display:flex;
+    justify-content:flex-end;
+}
+body{
+        background-image:url("background_image.jpeg");
+        background-position: center center;
+        background-size:cover;
+        background-attachment: fixed;
+        text-align:center;
+        color: white;
+        padding: 1rem;
+}
+
+#logo_property{
+    width :3rem;
+    margin-right: 1rem;
+}
+#profile_property{
+    width :80px;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#login_box{
+    margin: 2rem;
+    background-color:white;
+    width: 350px;
+    height: 400px;
+    color: grey;
+    padding: 1.25rem 2rem;
+    font-size: 0.8rem;
+}
+#signup_box, #profile_box{
+    margin: 2rem;
+    background-color:white;
+    width: 350px;
+    height: 425px;
+    color: grey;
+    padding: 1.25rem 2rem;
+    font-size: 0.8rem;
+}
+
+#recovery_box{
+    margin: 2rem;
+    background-color:white;
+    width: 350px;
+    height: 325px;
+    color: grey;
+    padding: 1.5rem 2rem;
+    font-size: 0.8rem;
+}
+#displayProfile > p{
+    color: black;
+    font-size: 1rem;
+}
+#id01{
+    display:none;
+}
+.input_box{
+    margin-top: 1rem;
+    width: 100%;
+    height: 2rem;
+    font-style:italic;
+    padding-left: 10px;
+}
+select{
+    border: none;
+    background-color: white;
+}
+label, select, a{
+    font-size: 0.8rem;
+}
+
+#signInPeriod{
+    width: 0.65rem;
+    height: 0.65rem;
+}
+#termsCondition{
+    width: 0.65rem;
+    height: 0.65rem;
+}
+#login_button, #signup_button{
+  background-color: #2d9ce7;
+  border: 0px solid black;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.login_button{
+    background-color: #2d9ce7;
+    border: 0px solid black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+a{
+    color: #2d9ce7;
+    text-decoration:none;
+}
+p, p>a{
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #login_box{
+        width: 280px;
+        height: 400px;
+    }
+}
+
+@media print{
+    header, footer, aside, form{
+        display: none;
+    }
+    a:after {
+       content: "("attr(href)")";
+    }
+}
+
+
+
+.modal {
+    display: none; /* hidden by default */
+    position: fixed; /* stay in place */
+    z-index: 1; /* sit on top */
+    color: black;
+    left: 0;
+    top: 0;
+    width: 100%; /* full width */
+    height: 100%; /* full height */
+    overflow: auto; /* enable scroll if needed */
+    background-color: rgb(0,0,0); /* fallback color */
+    background-color: rgba(0,0,0,0.4); /* black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  .close-button {
+    color: rgb(5, 5, 5);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
