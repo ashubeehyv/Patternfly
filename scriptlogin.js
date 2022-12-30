@@ -25,7 +25,7 @@ function userLoginDataStorage(e){
 
     if(index != -1 && profiles[index].password == logInPassword.value){
         localStorage.setItem("email", logInEmail.value);
-        window.open("profile.html");
+        window.open("profile.html","_self");
     }
     else{
         alert("Invalid credentials, please try again!");

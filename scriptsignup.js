@@ -40,7 +40,7 @@ function myFunction(e){
         const myJSON = JSON.stringify(myObj);
         localStorage.setItem("testJSON", myJSON);
         localStorage.setItem("email", addEmail.value);
-        window.open("profile.html");
+        window.open("profile.html", "_self");
         console.log(localStorage);
     }
     else{

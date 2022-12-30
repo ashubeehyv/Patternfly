@@ -11,7 +11,7 @@ function fetchPassword(e){
 
     if(index != -1 && profiles[index].name == verifyName.value){
         alert(`Your password is ${profiles[index].password}` + "\n" + "Please log in using your password!");
-        window.open("login.html");
+        window.open("login.html","_self");
     }
     else{
         alert("User does not exit please sign up!");

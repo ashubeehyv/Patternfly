@@ -40,7 +40,7 @@ const login_btn = document.getElementById("login_button");
 login_btn.addEventListener("click", myFunction);
 
 function myFunction(){
-    window.open("login.html");
+    window.open("login.html","_self");
     localStorage.removeItem("email");
 }
 

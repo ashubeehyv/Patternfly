@@ -42,6 +42,7 @@ body{
 }
 #profile_property{
     width :80px;
+    height: 100px;
     background-color: white;
     margin: 1rem;
     border-radius: 50%;
@@ -51,7 +52,7 @@ body{
     margin: 2rem;
     background-color:white;
     width: 350px;
-    height: 325px;
+    height: 350px;
     color: grey;
     padding: 1.25rem 2rem;
     font-size: 0.8rem;
@@ -60,7 +61,7 @@ body{
     margin: 2rem;
     background-color:white;
     width: 350px;
-    height: 375px;
+    height: 400px;
     color: grey;
     padding: 1.25rem 2rem;
     font-size: 0.8rem;
@@ -70,7 +71,7 @@ body{
     margin: 2rem;
     background-color:white;
     width: 400px;
-    height: 400px;
+    height: 425px;
     color: grey;
     padding: 1.25rem 2rem;
     font-size: 0.8rem;
@@ -80,7 +81,7 @@ body{
     margin: 2rem;
     background-color:white;
     width: 350px;
-    height: 325px;
+    height: 350px;
     color: grey;
     padding: 1.5rem 2rem;
     font-size: 0.8rem;
