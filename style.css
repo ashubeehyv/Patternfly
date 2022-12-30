@@ -26,6 +26,12 @@
     display:flex;
     justify-content:flex-end;
 }
+
+.flex_left_container{
+    margin-top: 0.75rem;
+    display:flex;
+    justify-content:flex-start;
+}
 body{
         background-image:url("background_image.jpeg");
         background-position: center center;
@@ -180,12 +186,16 @@ p, p>a{
   }
   
   .modal-content {
-    background-color: #fefefe;
+    background-color: #c7aaaa;
     margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
+    border: 1px solid rgb(250, 91, 91);
     border-radius: 5px;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 60%; /* Could be more or less, depending on screen size */
+    width: 350px;
+    height: 200px;
+    color: rgb(3, 3, 3);
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
   }
   
   .close-button {

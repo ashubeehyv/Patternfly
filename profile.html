@@ -50,11 +50,13 @@
 
 
     <div id="edit-modal" class="modal">
-      <div class="modal-content">
-        <span class="close-button">&times;</span>
+      <div class="modal-content ">
+        <div class="flex_right_container">
+            <span class="close-button">&times;</span>
+        </div>
         <form id = "editProfile_form">
           <label for = "editName"> Name: </label>
-          <input type = "text" id = "editName" name ="editName"><br><br>
+          <input type = "text" id = "editName"  name ="editName"><br><br>
           <label for="editPassword">Password: </label>
           <input type = "text" id="editPassword"><br><br>
           <input type="submit" value="Save">
@@ -64,11 +66,13 @@
 
     <div id="edit-modal-image" class="modal">
         <div class="modal-content">
-          <span class="close-button-image close-button">&times;</span>
-          <form id = "editProfileImage_form">
-            <input type = "file" id="editProfileImage"  accept="image/png, image/jpeg, image/jpg, image/gif" name="editProfileImage"><br><br>
-            <input type="submit" value="Save">
-          </form>
+            <div class="flex_right_container">
+                <span class="close-button">&times;</span>
+            </div>
+            <form id = "editProfileImage_form">
+                <input type = "file" id="editProfileImage"  accept="image/png, image/jpeg, image/jpg, image/gif" name="editProfileImage"><br><br>
+                <input type="submit" value="Save">
+            </form>
         </div>
       </div>
     
