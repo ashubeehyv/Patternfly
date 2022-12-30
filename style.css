@@ -147,21 +147,21 @@ p, p>a{
     font-size: 0.8rem;
 }
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
     #login_box{
         width: 280px;
         height: 400px;
     }
-}
+} */
 
-@media print{
+/* @media print{
     header, footer, aside, form{
         display: none;
     }
     a:after {
        content: "("attr(href)")";
     }
-}
+} */
 
 
 
